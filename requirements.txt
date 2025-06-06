@@ -1,0 +1,44 @@
+# Core dependencies
+torch>=2.0.0
+transformers>=4.30.0
+numpy>=1.21.0
+pandas>=1.3.0
+scikit-learn>=1.0.0
+
+# Data manipulation and visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+plotly>=5.0.0
+ipywidgets>=7.6.0
+
+# NLP and text processing
+nltk>=3.8
+spacy>=3.4.0
+textblob>=0.17.0
+gensim>=4.2.0
+
+# Vector databases and similarity search
+faiss-cpu>=1.7.0
+chromadb>=0.4.0
+pinecone-client>=2.2.0
+
+# Dataset utilities
+datasets>=2.10.0
+huggingface-hub>=0.15.0
+
+# Jupyter and notebook utilities
+jupyter>=1.0.0
+jupyterlab>=3.4.0
+notebook>=6.4.0
+
+# Additional ML utilities
+scipy>=1.9.0
+tqdm>=4.64.0
+requests>=2.28.0
+beautifulsoup4>=4.11.0
+
+# Optional: for advanced features
+tiktoken>=0.4.0  # OpenAI tokenizer
+openai>=0.27.0   # OpenAI API client
+langchain>=0.0.200  # LangChain framework
+sentence-transformers>=2.2.0  # Sentence embeddings
